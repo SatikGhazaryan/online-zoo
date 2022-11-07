@@ -1,0 +1,69 @@
+.donate-bg {
+  height: 390px;
+  background: url(../../assets/images/Panda.png);
+  background-position: center;
+  background-size: cover;
+}
+.donate-row {display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 90px;
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+}
+.donate-row-col{
+    width:1160px
+}
+.donate-text
+{
+color:#fff
+}
+.donate-h3{
+    text-align: left !important;
+    color: #FE9013;
+    margin:40px 0;
+}
+.feed{
+    background: rgba(255, 255, 255, 0.52);
+backdrop-filter: blur(2px);
+border-radius: 20px;
+padding: 40px 92px;
+}
+.feed-h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #FE9013;
+padding-bottom: 20px;
+}
+.feed-p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #333B41;
+}
