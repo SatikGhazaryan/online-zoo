@@ -71,7 +71,8 @@ nav h1 {
   color: #fff;
   padding: 0 24px;
 }
-.activ, .nav-ul a:hover {
+.activ,
+.nav-ul a:hover {
   color: #fe9013 !important;
 }
 .row-bg {
@@ -225,7 +226,7 @@ nav h1 {
   text-align: center;
   color: #fff;
 
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 .block {
   height: 230px;
@@ -532,26 +533,80 @@ footer h2 {
   width: 300px;
   height: 353px;
 }
-.bn:hover, .btn1:hover, .btn:hover {
+.bn:hover,
+.btn1:hover,
+.btn:hover {
   background: #e47209;
   cursor: pointer;
 }
-.arrow-right, .arrow-left{
+.arrow-right,
+.arrow-left {
   position: absolute;
-  top:435px;
-  border:none;
-width: 62px;
-height: 62px;
-background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-border-radius:50%;
-display: flex;
-justify-content: center;
-align-items: center;
+  top: 435px;
+  border: none;
+  width: 62px;
+  height: 62px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.arrow-right{right:140px}
-.arrow-left{left:140px}
-.arrow-left:active, .arrow-right:active{background:#4B9200}
-.arrow{width:16px;}
-.foto-card-img{transform: scale(1.1,1.1); transition:.5s}
-.card-img-col{overflow: hidden;}
-.foto-card-img:hover{transform: scale(1,1);}
+.arrow-right {
+  right: 140px;
+}
+.arrow-left {
+  left: 140px;
+}
+.arrow-left:active,
+.arrow-right:active {
+  background: #4b9200;
+}
+.arrow {
+  width: 16px;
+}
+.foto-card-img {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.card-img-col {
+  overflow: hidden;
+}
+.foto-card-img:hover {
+  transform: scale(1, 1);
+}
+.testimonial-scroll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 30px 0 30px;
+}
+.testimonial-scroll input {
+  margin: 20px auto 0 auto;
+  -webkit-appearance: none;
+  width: 600px;
+  height: 8px;
+  border: 0.5px solid transparent;
+  border-radius: 8px;
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  box-shadow: inset 0 0 0 10vw #f5f7f6;
+  outline: none;
+  cursor: pointer;
+}
+/*input[type="range"] {
+}*/
