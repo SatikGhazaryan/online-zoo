@@ -606,5 +606,10 @@ footer h2 {
   outline: none;
   cursor: pointer;
 }
-/*input[type="range"] {
-}*/
+input[type="range"] {
+  background: #4b9200;
+}
+.footer-a div{transition: .5s;}
+.footer-a:hover div{
+  transform: translate(10px,0);
+}
