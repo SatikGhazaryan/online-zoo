@@ -12,7 +12,7 @@ li {
   list-style: none;
 }
 .container {
-  width: 1600px;
+  /*width: 1600px;*/
   max-width: 1600px;
   margin: 0 auto;
 }
@@ -569,10 +569,10 @@ footer h2 {
   align-items: center;
 }
 .arrow-right {
-  right: 140px;
+  right: calc(0px - 6%);
 }
 .arrow-left {
-  left: 140px;
+  left: calc(0px - 6%);
 }
 .arrow-left:active,
 .arrow-right:active {
