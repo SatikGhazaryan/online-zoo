@@ -125,7 +125,7 @@ nav h1 {
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  border:none;
+  border: none;
 }
 
 .left {
@@ -142,8 +142,16 @@ nav h1 {
 .right {
   width: 465px;
 }
+.ded {
+  width: 609px;
+  height: 403px;
+  background: url(../../assets/images/bamboo-cap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .right h2 {
   font-size: 48px;
+  font-weight: 400;
 }
 .right-p {
   font-size: 16px;
@@ -225,7 +233,7 @@ nav h1 {
   border-radius: 25px;
   text-align: center;
   color: #fff;
-  border:none;
+  border: none;
   text-transform: uppercase;
 }
 .block {
@@ -237,6 +245,11 @@ nav h1 {
   bottom: 0;
 }
 .left-image {
+  width:880px;
+  height:460px;
+  background: url(../../assets/images/palm_foto.png);
+  background-repeat: no-repeat;
+ 
   position: absolute;
   left: 0;
   bottom: 0;
@@ -420,9 +433,11 @@ h3 {
   font-size: 16px;
   text-transform: uppercase;
   color: #ffffff;
-  border:none;
+  border: none;
 }
-button:active{background: #4b9200;}
+button:active {
+  background: #4b9200;
+}
 .footer-bg {
   background: #111115;
   height: 443px;
@@ -525,6 +540,9 @@ footer h2 {
   justify-content: flex-end;
 }
 .terev {
+  background: url(../../assets/images/leav_foto.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -609,7 +627,9 @@ footer h2 {
 input[type="range"] {
   background: #4b9200;
 }
-.footer-a div{transition: .5s;}
-.footer-a:hover div{
-  transform: translate(10px,0);
+.footer-a div {
+  transition: 0.5s;
+}
+.footer-a:hover div {
+  transform: translate(10px, 0);
 }
