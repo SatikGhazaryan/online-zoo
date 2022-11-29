@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1000px) and (min-width: 641px) {
+  .container {
+    max-width: 1000px;
+  }
+  .width {
+    width: 940px;
+  }
+  nav {
+    justify-content: flex-start !important;
+  }
+  .oring-circle {
+    width: 367px;
+    height: 367px;
+    left: calc(50% - 367px / 2 + 139.5px);
+    top: 69px;
+  }
+  .text {
+    width: 400px;
+    height: 320px;
+    font-size: 85px;
+    left: calc(50% - 400.25px / 2 + 214.12px);
+    top: 122.8px;
+  }
+  .btn {
+    left: calc(50% - 298px / 2 + 214px);
+    top: 483px;
+  }
+  .row-bg {
+    height: 584px;
+  }
+  .flower_foto1 {
+    display: none;
+  }
+  .left {
+    width: 455px;
+    height: 408px;
+  }
+  .ded {
+    width: 455px;
+    height: 408px;
+  }
+  .right {
+    width: 455px;
+  }
+  .row {
+    padding: 100px 0;
+  }
+  .mt-md {
+    margin-top: 90px;
+  }
+  .arrow-right {
+    right: 344px;
+    top: 415px;
+  }
+  .arrow-left {
+    left: 360px;
+    top: 415px;
+  }
+  .right-image {
+    width: 241px;
+    height: 180px;
+  }
+  .left-image{
+    background-size: contain;
+    width: 386px;
+    height: 202px;
+  }
+  .text-3{
+    width:823px
+  }
+  .block{height:135px}
+  .md-none{display: none;}
+  .terev{width:239px;height:235px}
+.md-between{justify-content: space-between;}
+.md-position{position:absolute; left:183px}
+}
